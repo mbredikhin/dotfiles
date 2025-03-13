@@ -1,0 +1,5 @@
+alias d="docker $*"
+alias dc="docker compose $*"
+
+alias gred="git checkout development && git pull && git checkout - && git rebase development"
+alias grem="git checkout main && git pull && git checkout - && git rebase main"
