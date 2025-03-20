@@ -23,6 +23,8 @@ require("lazy").setup({
     }
 })
 
+require("config.keymaps").init()
+
 vim.opt.number = true
 vim.opt.termguicolors = true
 vim.cmd.colorscheme "melange"
