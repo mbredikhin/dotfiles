@@ -28,3 +28,14 @@ require("config.keymaps").init()
 vim.opt.number = true
 vim.opt.termguicolors = true
 vim.cmd.colorscheme "melange"
+vim.opt.tabstop = 2
+vim.opt.softtabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.smarttab = true
+vim.opt.expandtab = true
+vim.opt.autoindent = true
+vim.opt.swapfile = false
+vim.opt.clipboard = "unnamedplus"
+vim.opt.ruler = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
