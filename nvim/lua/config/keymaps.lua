@@ -25,6 +25,11 @@ M.init = function()
   map("n", "<localleader>fg", telescope_builtin.live_grep, { desc = 'Telescope live grep' })
   map("n", "<localleader>fb", telescope_builtin.buffers, { desc = 'Telescope buffers' })
   map("n", "<localleader>fh", telescope_builtin.help_tags, { desc = 'Telescope help tags' })
+
+  map('n', '<leader>e', ':Neotree toggle<CR>', { noremap = true, silent = true })
+  map('n', '<leader>f', ':Neotree focus<CR>', { noremap = true, silent = true })
+  map('n', '<leader>r', ':Neotree reveal<CR>', { noremap = true, silent = true })
+
 end
 
 return M
